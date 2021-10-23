@@ -1,0 +1,49 @@
+.header {
+  padding: 0px 25px;
+  box-shadow: 1px 1px 0px 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background-color: #0099ff;
+  top: 0;
+}
+
+.logo {
+  height: 100%;
+  font-size: 26px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #fff;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 40px;
+}
+
+.menuItem {
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.menuIcon {
+  margin-right: 5px;
+}
+.menuItem:hover {
+  background-color: #456789;
+  color: #fff;
+}

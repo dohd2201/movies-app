@@ -1,0 +1,26 @@
+.search {
+}
+
+.searchHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #888;
+  padding: 20px;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchButton {
+  height: 40px;
+}
+
+.searchBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

@@ -1,0 +1,11 @@
+.genres {
+  margin: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #00ccff;
+  -webkit-box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.69);
+  box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.69);
+  border-radius: 5px;
+}

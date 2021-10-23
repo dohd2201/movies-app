@@ -1,0 +1,56 @@
+.singleCard {
+  background-color: #00ccff;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin: 10px 20px;
+  position: relative;
+  cursor: pointer;
+  padding: 15px;
+  text-transform: uppercase;
+  color: #444;
+  -webkit-box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.69);
+  box-shadow: 1px 0px 6px 1px rgba(0, 0, 0, 0.69);
+}
+
+.singleCardName {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.singleCard img {
+  display: block;
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.singleCardVote {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.singleCardBottom {
+  margin-top: 5px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.singleCard:hover > img {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.singleCard:hover {
+  background-color: #4682b4;
+  color: #fff !important;
+}

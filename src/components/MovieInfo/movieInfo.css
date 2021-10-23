@@ -1,0 +1,39 @@
+.movieInfo {
+  -webkit-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.9);
+  margin-top: 20px;
+}
+
+.movieInfoImg {
+  flex: 1;
+  padding: 10px 20px;
+  border-right: 1px solid #333;
+}
+
+.movieInfoBackdrop {
+  width: 100%;
+}
+
+.movieInfoAbout {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.aboutItem {
+  margin-bottom: 20px;
+}
+
+.movieInfoTitle {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.movieInfoDescription {
+  border: 1px solid #888;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: justify;
+}

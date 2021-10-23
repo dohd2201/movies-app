@@ -1,0 +1,23 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.app {
+  margin-top: 70px;
+}
+
+.pageTitle {
+  margin: 5px;
+  font-size: 23px;
+  color: #888;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #888;
+  text-transform: uppercase;
+}
